@@ -1,0 +1,127 @@
+======================= MACHINE FILE :
+piano
+orgue
+celesta
+synthetiseur
+ 
+=====================================
+ 
+ 
+======================= COMMANDS USED :
+/net/npers/mercier/PR204/Suivi_Thor/2024-2025/Repos/pr204-24468/Phase1/bin/dsmexec
+/net/npers/mercier/PR204/Suivi_Thor/2024-2025/Repos/pr204-24468/Phase1/bin/dsmwrap
+/net/npers/mercier/PR204/Suivi_Thor/2024-2025/Repos/pr204-24468/Phase1/bin/truc
+=====================================
+ 
+ 
+======================= REGULAR TEST :
+arg[0] : truc
+open: No such file or directory
+Working dir is /net/npers/mercier/PR204/Suivi_Thor/2024-2025/Repos/pr204-24468/Phase1
+Number of args : 1
+================ Valeur du descripteur : -1
+ 
+=====================================
+ 
+======================= DSMEXEC TEST :
+============================ Essai #1
+Machines trouvées (4) :
+piano
+orgue
+celesta
+synthetiseur
+Socket d'écoute créée sur piano:49345
+Serveur prêt à accepter des connexions sur piano:49345
+Parent a reçu stdout de l'enfant 0 : ===test===
+Connexion établie avec le serveur 49345:49345
+
+Parent a reçu stdout de l'enfant 1 : ===test===
+Connexion établie avec le serveur 49345:49345
+
+Parent a reçu stdout de l'enfant 2 : ===test===
+Connexion établie avec le serveur 49345:49345
+
+Parent a reçu stdout de l'enfant 3 : ===test===
+Connexion établie avec le serveur 49345:49345
+
+Connexion acceptée de 10.7.6.153:53754
+Nom de la machine client : piano
+Connexion acceptée de 10.7.6.183:56688
+Nom de la machine client : orgue
+Connexion acceptée de 10.7.6.161:53194
+Nom de la machine client : celesta
+Connexion acceptée de 10.7.6.185:58986
+Nom de la machine client : synthetiseur
+Free (4) :
+piano
+orgue
+celesta
+synthetiseur
+============================ Essai #2
+Machines trouvées (4) :
+piano
+orgue
+celesta
+synthetiseur
+Socket d'écoute créée sur piano:60455
+Serveur prêt à accepter des connexions sur piano:60455
+Parent a reçu stdout de l'enfant 0 : ===test===
+Connexion établie avec le serveur 60455:60455
+
+Parent a reçu stdout de l'enfant 1 : ===test===
+Connexion établie avec le serveur 60455:60455
+
+Parent a reçu stdout de l'enfant 2 : ===test===
+Connexion établie avec le serveur 60455:60455
+
+Parent a reçu stdout de l'enfant 3 : ===test===
+Connexion établie avec le serveur 60455:60455
+
+Connexion acceptée de 10.7.6.153:47346
+Nom de la machine client : piano
+Connexion acceptée de 10.7.6.183:49276
+Nom de la machine client : orgue
+Connexion acceptée de 10.7.6.161:50082
+Nom de la machine client : celesta
+Connexion acceptée de 10.7.6.185:46120
+Nom de la machine client : synthetiseur
+Free (4) :
+piano
+orgue
+celesta
+synthetiseur
+=====================================
+======================= DATA EXCHANGE TEST :
+Machines trouvées (4) :
+piano
+orgue
+celesta
+synthetiseur
+Socket d'écoute créée sur piano:57689
+Serveur prêt à accepter des connexions sur piano:57689
+Parent a reçu stdout de l'enfant 0 : ===test===
+Connexion établie avec le serveur 57689:57689
+
+Parent a reçu stdout de l'enfant 1 : ===test===
+Connexion établie avec le serveur 57689:57689
+
+Parent a reçu stdout de l'enfant 2 : ===test===
+Connexion établie avec le serveur 57689:57689
+
+Parent a reçu stdout de l'enfant 3 : ===test===
+Connexion établie avec le serveur 57689:57689
+
+Connexion acceptée de 10.7.6.153:37108
+Nom de la machine client : piano
+Connexion acceptée de 10.7.6.183:36216
+Nom de la machine client : orgue
+Connexion acceptée de 10.7.6.161:56562
+Nom de la machine client : celesta
+Connexion acceptée de 10.7.6.185:58338
+Nom de la machine client : synthetiseur
+Free (4) :
+piano
+orgue
+celesta
+synthetiseur
+=====================================

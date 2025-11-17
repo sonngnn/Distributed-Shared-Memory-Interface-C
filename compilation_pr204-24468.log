@@ -1,0 +1,8 @@
+dsmwrap.c: In function ‘main’:
+dsmwrap.c:23:8: warning: unused variable ‘pid’ [-Wunused-variable]
+   23 |    int pid = getpid();
+      |        ^~~
+truc.c: In function ‘main’:
+truc.c:13:10: warning: variable ‘wd_ptr’ set but not used [-Wunused-but-set-variable]
+   13 |    char *wd_ptr = NULL;
+      |          ^~~~~~
